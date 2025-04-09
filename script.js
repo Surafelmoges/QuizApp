@@ -135,4 +135,11 @@ const questions = [
       ]
     }
   ];
+
   
+  const questionContainer = document.getElementById("question");
+  const answerButtons = document.getElementById("answer-btn");
+  const nextButton = document.getElementById("next-btn");
+
+  let currentQuestionIndex = 0;
+  let score = 0;
